@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#by jmxia
 
-from Bio import SeqIO
 import sys
 import logging
 import argparse
 import matplotlib
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt
-
+from Bio import SeqIO
 
 def read_fq(inputfq):
   q_list = []
@@ -72,4 +72,3 @@ Usage:
 
 if __name__ == "__main__":
   main()
-
